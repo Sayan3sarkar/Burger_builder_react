@@ -7,18 +7,18 @@ A Burger Builder API created using [React JS](https://reactjs.org). Here user ca
 
 [Node JS](https://nodejs.org/en/) installed (Windows/Linux/MAC)
 
-###Optional
+### Optional
 
 We use [create-react-app](https://github.com/facebook/create-react-app) to make a React App. Alternative is to clone this repo as it has all dependencies in it.
 
 
 In this repo **create-react-app** script(folder directory) version **1.1.5** has been used, so as to enhance [CSS Modules](https://programmingwithmosh.com/react/css-modules-react/) usage in the application.
 
-##Enabling CSS Modules
+## Enabling CSS Modules
 
 If you install the latest directory structure for **create-react-app**, name all the CSS files as "[filename].module.css" instead of "[filename].css". Only then would you be able to use the module features of CSS
 
-###Steps to enable css modules(for version 1.1.5)
+### Steps to enable css modules(for version 1.1.5)
 
 <ul>
 	<li>In terminal(MAC,Linux)(cmd for windows), run <b>npm run eject</b></li>
