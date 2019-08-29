@@ -13,6 +13,7 @@ We use [create-react-app](https://github.com/facebook/create-react-app) to make 
 
 
 In this repo **create-react-app** script(folder directory) version **1.1.5** has been used, so as to enhance [CSS Modules](https://programmingwithmosh.com/react/css-modules-react/) usage in the application.
+<hr>
 
 ## Enabling CSS Modules
 
