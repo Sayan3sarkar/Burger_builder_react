@@ -1,6 +1,6 @@
 import React,{ Component } from 'react'
 import classes from './Modal.css'
-import Aux from '../../../hoc/Auxilliary'
+import Aux from '../../../hoc/Auxilliary/Auxilliary'
 import BackDrop from '../BackDrop/BackDrop'
 
 class Modal extends Component{
