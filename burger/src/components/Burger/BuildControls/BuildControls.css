@@ -1,15 +1,17 @@
 .BuildControls {
     width: 100%;
-    background-color: #CF8F2E;
+    background-color: salmon;
     display: flex;
     flex-flow: column;
     align-items: center;
     box-shadow: 0 2px 1px #ccc;
     margin: auto;
+    margin-bottom: 80px;
     padding: 10px 0;
 }
 
 .OrderButton {
+    margin-top: 2px;
     background-color: #DAD735;
     outline: none;
     cursor: pointer;
