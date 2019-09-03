@@ -1,15 +1,13 @@
-import React from 'react'
-import classes from './NavigationItem.css'
+import React from 'react';
 
-const NavigationItem = (props)=>(
-	<li className={classes.NavigationItem}>
-		<a 
-			href={props.link}
-			className={props.active ? classes.active : null}
-			target={props.newTab ? "_blank": null}>
-				{props.children}
-		</a>
-	</li>
-)
+import classes from './NavigationItem.css';
 
-export default NavigationItem
+const navigationItem = ( props ) => (
+    <li className={classes.NavigationItem}>
+        <a 
+            href={props.link} 
+            className={props.active ? classes.active : null}>{props.children}</a>
+    </li>
+);
+
+export default navigationItem;
