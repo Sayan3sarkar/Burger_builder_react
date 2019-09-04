@@ -6,8 +6,8 @@
     align-items: center;
     box-shadow: 0 2px 1px #ccc;
     margin: auto;
-    margin-bottom: 80px;
     padding: 10px 0;
+    height: 325px;
 }
 
 .OrderButton {
@@ -16,17 +16,17 @@
     outline: none;
     cursor: pointer;
     border: 1px solid #966909;
-    color: #966909;
+    color: black;
     font-family: inherit;
     font-size: 1.2em;
     padding: 15px 30px;
-    box-shadow: 2px 2px 2px #966909;
+    box-shadow: 2px 2px 2px #3D4125;
 }
 
 .OrderButton:hover, .OrderButton:active {
-    background-color: #A0DB41;
+    background-color: #E4E81C;
     border: 1px solid #966909;
-    color: #966909;
+    color: black;
 }
 
 .OrderButton:disabled {
