@@ -36,3 +36,12 @@ If you install the latest directory structure for **create-react-app**, name all
 
 
 After this you can save a CSS file as "[filename].css" and it still would have the ability to use CSS modules.
+
+
+### Starting the project
+
+
+I have used to [npm]() to start this project by going into the **burger** folder via terminal and entering the command **npm start**
+
+
+If you're using **yarn**, kindly go through it's [documentation](https://yarnpkg.com/lang/en/docs/) for more details on how to start a react app.
