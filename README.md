@@ -5,7 +5,7 @@ A Burger Builder API created using [React JS](https://reactjs.org). Here user ca
 
 ### Prerequisites to run this app on a system
 
-[Node JS](https://nodejs.org/en/) installed (Windows/Linux/MAC)
+[Node JS](https://nodejs.org/en/) installed (Windows/Linux/MAC). [npx](https://www.npmjs.com/package/npx) and [npm](https://docs.npmjs.com/getting-started/) get installed alongside it.
 
 ### Optional
 
@@ -46,3 +46,17 @@ I have used to [npm](https://docs.npmjs.com/getting-started/) to start this proj
 
 
 If you're using **yarn**, kindly go through it's [documentation](https://yarnpkg.com/lang/en/docs/) for more details on how to start a react app.
+
+
+### Packages installed
+
+The following packages are installed with the command **npm install --save <package_name>**, as the project has dependencies on them.
+
+<ul>
+	<li><a href="https://reacttraining.com/react-router/web/guides/quick-start" target="_blank">react-router-dom</a>. This also wraps the <b>react-router</b> package, so no need to separately install it. </li>
+	<li><a href="https://github.com/axios/axios" target="_blank">axios</a></li>
+</ul>
+
+### Higher order components(hoc)
+
+For hoc's, we can use [React.Fragment](https://reactjs.org/docs/fragments.html) but for this project, I have created a custom hoc which can be found in the **hoc** folder. I have named it **Auxilliary.js** (can also be named **Aux.js** for but this will be applicable for Linux and MAC only, as windows does not allow to name a directory of file as Aux/aux) 
