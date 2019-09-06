@@ -1,0 +1,42 @@
+.Input{
+	width: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+.Label{
+	font-weight: bold;
+	display: block;
+	margin-bottom: 8px;	
+}
+
+.InputElement{
+	outline: none;
+	border: 1px solid #b6afaf;
+	border-radius: 10px;
+	background-color: white;
+	font: inherit;
+	padding: 6px 10px;
+	display: block;
+	width: 90%;
+}
+
+.InputElement:focus{
+	outline: none;
+	background-color: #eee;
+}
+
+.InputElement:disabled{
+	outline: none;
+	cursor: none;
+	background-color: #8a8a8a;
+	color: white;
+}
+
+.InputElement:hover,
+.InputElement:active,
+.InputElement:active{
+	outline: none;
+	background-color: #ccc;
+	cursor: pointer;
+}
