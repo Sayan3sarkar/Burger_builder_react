@@ -59,6 +59,11 @@ The following packages are installed with the command **npm install --save <pack
 </ul>
 <hr>
 
+
+### Backend Usage
+
+For this project, as of now, I am using [Google Firebase Console](https://firebase.google.com/?gclid=EAIaIQobChMIj9GWh4W85AIVSR0rCh16ygT4EAAYASAAEgJt2vD_BwE) as it provides a dummy backend with a dummy [NO-SQL](https://searchdatamanagement.techtarget.com/definition/NoSQL-Not-Only-SQL) databse to which I can store and retreive data to test the functionality of my application.
+
 ### Higher order components(hoc)
 
 For hoc's, we can use [React.Fragment](https://reactjs.org/docs/fragments.html) but for this project, I have created a custom hoc which can be found in the **hoc** folder. I have named it **Auxilliary.js** (can also be named **Aux.js** for but this will be applicable for Linux and MAC only, as windows does not allow to name a directory or file as Aux/aux) 
