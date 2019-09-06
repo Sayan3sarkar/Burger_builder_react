@@ -46,6 +46,7 @@ I have used to [npm](https://docs.npmjs.com/getting-started/) to start this proj
 
 
 If you're using **yarn**, kindly go through it's [documentation](https://yarnpkg.com/lang/en/docs/) for more details on how to start a react app.
+<hr>
 
 
 ### Packages installed
@@ -56,6 +57,7 @@ The following packages are installed with the command **npm install --save <pack
 	<li><a href="https://reacttraining.com/react-router/web/guides/quick-start" target="_blank">react-router-dom</a>. This also wraps the <b>react-router</b> package, so no need to separately install it. </li>
 	<li><a href="https://github.com/axios/axios" target="_blank">axios</a></li>
 </ul>
+<hr>
 
 ### Higher order components(hoc)
 
