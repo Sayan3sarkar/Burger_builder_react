@@ -59,4 +59,4 @@ The following packages are installed with the command **npm install --save <pack
 
 ### Higher order components(hoc)
 
-For hoc's, we can use [React.Fragment](https://reactjs.org/docs/fragments.html) but for this project, I have created a custom hoc which can be found in the **hoc** folder. I have named it **Auxilliary.js** (can also be named **Aux.js** for but this will be applicable for Linux and MAC only, as windows does not allow to name a directory of file as Aux/aux) 
+For hoc's, we can use [React.Fragment](https://reactjs.org/docs/fragments.html) but for this project, I have created a custom hoc which can be found in the **hoc** folder. I have named it **Auxilliary.js** (can also be named **Aux.js** for but this will be applicable for Linux and MAC only, as windows does not allow to name a directory or file as Aux/aux) 
