@@ -63,6 +63,7 @@ The following packages are installed with the command **npm install --save <pack
 ### Backend Usage
 
 For this project, as of now, I am using [Google Firebase Console](https://firebase.google.com/?gclid=EAIaIQobChMIj9GWh4W85AIVSR0rCh16ygT4EAAYASAAEgJt2vD_BwE) as it provides a dummy backend with a dummy [NO-SQL](https://searchdatamanagement.techtarget.com/definition/NoSQL-Not-Only-SQL) databse to which I can store and retreive data to test the functionality of my application.
+<hr>
 
 ### Higher order components(hoc)
 
