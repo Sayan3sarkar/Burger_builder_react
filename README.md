@@ -56,6 +56,8 @@ The following packages are installed with the command **npm install --save <pack
 <ul>
 	<li><a href="https://reacttraining.com/react-router/web/guides/quick-start" target="_blank">react-router-dom</a>. This also wraps the <b>react-router</b> package, so no need to separately install it. </li>
 	<li><a href="https://github.com/axios/axios" target="_blank">axios</a></li>
+	<li><a href="https://redux.js.org/">redux</a></li>
+	<li><a href="https://react-redux.js.org/">react-redux</a></li>
 </ul>
 <hr>
 
