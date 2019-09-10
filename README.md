@@ -58,6 +58,7 @@ The following packages are installed with the command **npm install --save <pack
 	<li><a href="https://github.com/axios/axios" target="_blank">axios</a></li>
 	<li><a href="https://redux.js.org/">redux</a></li>
 	<li><a href="https://react-redux.js.org/">react-redux</a></li>
+	<li><a href="https://github.com/reduxjs/redux-thunk">redux-thunk</a></li>
 </ul>
 <hr>
 
