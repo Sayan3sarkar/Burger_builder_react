@@ -62,6 +62,11 @@ The following packages are installed with the command **npm install --save <pack
 </ul>
 <hr>
 
+### Extensions used
+
+<ul>
+	<li><a href="https://github.com/zalmoxisus/redux-devtools-extension">Redux Devtools Extension</a></li>
+</ul>
 
 ### Backend Usage
 
