@@ -98,7 +98,7 @@ Find the complete app [here](https://burger-builder-react-c3110.firebaseapp.com/
 	<li>Initialize the project with <b>firebase init</b></li>
 	<ul>
 		<li>Select <b>Hosting: Configure and Deploye Firebase Hosting sites</b> from the displayed options</li>
-		<li>Select <b>use existing project</b> and then sleetc the project name you created for your app in firebase</li>
+		<li>Select <b>use existing project</b> and then select the project name you created for your app in firebase</li>
 		<li>Type <b>build</b> when asked for <b>What do you want to use as your public directory?</b></li>
 		<li>Press 'y' when asked <b>Configure as a single page app?</b> as all files will get redirected to <b>index.html</b> inside the build folder</li>
 		<li>Press 'N' when asked <b>File build/index.html already exists. Overwrite?</b></li>
