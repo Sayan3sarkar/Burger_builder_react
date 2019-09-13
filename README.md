@@ -61,7 +61,7 @@ The following packages are installed with the command **npm install --save <pack
 	<li><a href="https://github.com/reduxjs/redux-thunk">redux-thunk</a></li>
 </ul>
 
-Packages required for testinf in case anyone wants to implement it.
+Packages required for testing in case anyone wants to implement it.
 <ul>
 	<li><a href="https://airbnb.io/enzyme/">enzyme</a></li></li>
 	<li><a href="https://www.npmjs.com/package/react-test-renderer">react-test-renderer</a></li>
