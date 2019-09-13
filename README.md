@@ -59,12 +59,13 @@ The following packages are installed with the command **npm install --save <pack
 	<li><a href="https://redux.js.org/">redux</a></li>
 	<li><a href="https://react-redux.js.org/">react-redux</a></li>
 	<li><a href="https://github.com/reduxjs/redux-thunk">redux-thunk</a></li>
+</ul>
 
-	Packages required for <b>Testing</b>(Optional, kept it just in case anyone wants to apply testing):
-	<li><a href="https://airbnb.io/enzyme/">enzyme</a></li>
+Packages required for testinf in case anyone wants to implement it.
+<ul>
+	<li><a href="https://airbnb.io/enzyme/">enzyme</a></li></li>
 	<li><a href="https://www.npmjs.com/package/react-test-renderer">react-test-renderer</a></li>
 	<li><a href="https://www.npmjs.com/package/enzyme-adapter-react-16">enzyme-adapter-react-16</a>. Since, I'm using react version > 16</li>
-	
 </ul>
 <hr>
 
