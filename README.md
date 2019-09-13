@@ -83,3 +83,25 @@ For this project, as of now, I am using [Google Firebase Console](https://fireba
 ### Higher order components(hoc)
 
 For hoc's, we can use [React.Fragment](https://reactjs.org/docs/fragments.html) but for this project, I have created a custom hoc which can be found in the **hoc** folder. I have named it **Auxilliary.js** (can also be named **Aux.js** for but this will be applicable for Linux and MAC only, as windows does not allow to name a directory or file as Aux/aux) 
+<hr>
+
+## Application Deployment
+
+Find the complete app [here](https://burger-builder-react-c3110.firebaseapp.com/)
+
+### Steps involved in deployment to Firebase
+
+<ul>
+	<li>Run <b>npm run build</b>. This creates an extra folder in our app named build with optimized code to run on production server</li>
+	<li>Install <a href="https://github.com/firebase/firebase-tools">firebase-tools</a> with <b>npm install -g firebase-tools</b>. Use <b>sudo</b> before this command for Linux/MAC(not needed for windows)</li>
+	<li>Sign in to Google through CLI with the command <b>firebase login</b></li>
+	<li>Initialize the project with <b>firebase init</b></li>
+	<ul>
+		<li>Select <b>Hosting: Configure and Deploye Firebase Hosting sites</b> from the displayed options</li>
+		<li>Select <b>use existing project</b> and then sleetc the project name you created for your app in firebase</li>
+		<li>Type <b>build</b> when asked for <b>What do you want to use as your public directory?</b></li>
+		<li>Press 'y' when asked <b>Configure as a single page app?</b> as all files will get redirected to <b>index.html</b> inside the build folder</li>
+		<li>Press 'N' when asked <b>File build/index.html already exists. Overwrite?</b></li>
+	</ul>
+	<li>Deploy the app using <b>firebase deploy</b></li>
+</ul>
