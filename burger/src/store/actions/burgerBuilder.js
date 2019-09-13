@@ -30,7 +30,7 @@ export const fetchIngredientsFailed = ()=>{
 
 export const initIngredients = ()=>{
 	return dispatch =>{		//This dispatch is available due to redux-thunk
-		axios.get('https://burger-builder-react-c3110.firebaseio.com/ingredients.json')
+		axios.get('https://***/ingredients.json')
         .then(response=>{
             dispatch(setIngredients(response.data))
         })
