@@ -42,16 +42,18 @@ After this you can save a CSS file as "[filename].css" and it still would have t
 ### Starting the project
 
 
-I have used to [npm](https://docs.npmjs.com/getting-started/) to start this project by going into the **burger** folder via terminal and entering the command **npm start**
+I have used to [npm](https://docs.npmjs.com/getting-started/) to start this project by going into the **burger** folder via terminal. You can then run the command **npm install**, this will install all **node modules** required to run this project. All dependencies are fetched from **package.json** file. Once installed, you can run **npm start** to start the project.
 
 
 If you're using **yarn**, kindly go through it's [documentation](https://yarnpkg.com/lang/en/docs/) for more details on how to start a react app.
+
+**Note**: You can find out more about **node modules** from [here](https://nodejs.org/api/modules.html) and [here](https://www.npmjs.com/package/repository)
 <hr>
 
 
 ### Packages installed
 
-The following packages are installed with the command **npm install --save <package_name>**, as the project has dependencies on them.
+The following packages are installed with the command **npm install --save <package_name>**, as the project has dependencies on them. These extensions are available both on the development as well as the production environment. If you need to install any dependency for development-only mode, use **npm install --save-dev <package_name>**.
 
 <ul>
 	<li><a href="https://reacttraining.com/react-router/web/guides/quick-start" target="_blank">react-router-dom</a>. This also wraps the <b>react-router</b> package, so no need to separately install it. </li>
